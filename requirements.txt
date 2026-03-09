@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+openai>=1.0.0
+=======
+openai>=1.0.0
+>>>>>>> 047893f64da27b6532aab0b327f7cc07dee07d18
+python-dotenv>=1.0.0
