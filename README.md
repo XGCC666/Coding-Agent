@@ -1,4 +1,4 @@
-# 🧠 LTA Agent – 长序列全自动智能体（挂机版）
+# 🧠 LTA Agent – 长序列全自动智能体
 
 <p align="center">
   <img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
@@ -140,3 +140,11 @@ python lta_agent.py
 ## 🤝 贡献指南
 
 欢迎提交 Issue 或 PR！如果你有好的想法或改进建议，欢迎一起完善这个项目。
+
+---
+
+# 📚 未来计划
+
+- 前端优化
+- 防截断以保证可以24h运行
+- 自动重试和防止429等问题
