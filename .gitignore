@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 忽略环境变量配置（极其重要！）
 .env
 
@@ -17,23 +16,3 @@ __pycache__/
 todo.md
 test_*.py
 
-=======
-# 忽略环境变量配置（极其重要！）
-.env
-
-# 忽略虚拟环境文件夹
-venv/
-env/
-.venv/
-docs/
-
-# 忽略 Python 运行时产生的缓存垃圾
-__pycache__/
-*.pyc
-*.pyo
-
-# 忽略 AI 运行过程中产生的临时文件（可选，视你的需求而定）
-todo.md
-test_*.py
-
->>>>>>> 047893f64da27b6532aab0b327f7cc07dee07d18
