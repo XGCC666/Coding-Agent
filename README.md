@@ -71,7 +71,27 @@ git clone https://github.com/yourname/lta-agent.git
 cd lta-agent
 ```
 
-### 2. 安装依赖
+### 2. 加载虚拟环境并安装依赖（虚拟环境可选装）
+
+安装虚拟环境
+
+```bash
+python -m venv venv
+```
+
+启动虚拟环境（CMD）
+
+```bash
+venv\Scripts\activate.bat
+```
+
+启动虚拟环境（CMD）
+
+```bash
+venv\Scripts\Activate.ps1
+```
+
+安装依赖（不使用虚拟环境请直接看这一步）
 
 ```bash
 pip install -r requirements.txt
@@ -89,16 +109,18 @@ MODEL_NAME=gpt-4o
 
 ### 4. 启动智能体
 
+创建`todo.md`文件，输入你的目标，格式要求如下：
+
+```
+- [ ] 任务：XXXXXXXXXXX
+```
+
+保存后运行下面指令启动智能体：
+
 ```bash
 python lta_agent.py
 ```
 
-然后输入你的目标，例如：
-
-```
-👑 [老板指令] 请输入您的宏大项目需求:
-> 写一个 Python 脚本，读取当前目录下的所有 CSV 文件，合并后输出为 merged.csv
-```
 
 系统会自动生成任务清单并开始执行 ✅
 
@@ -146,5 +168,5 @@ python lta_agent.py
 # 📚 未来计划
 
 - 前端优化
-- 防截断以保证可以24h运行
-- 自动重试和防止429等问题
+- [x] ~~防截断以保证可以24h运行~~
+- [x] ~~自动重试和防止429等问题~~
